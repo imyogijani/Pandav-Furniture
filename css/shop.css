@@ -4,7 +4,41 @@
     box-sizing: border-box;
 }
 
-h1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: aqua;
+.logo img {
+    height: 90px;
+    margin-right: 200px;
+    width: 200px ;
+    padding-left: 10px;
+
+}
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px auto;
+}
+
+nav ul li {
+    margin: 15px;
+    font-size: larger ;
+    margin-right: 6 0px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #7c7c7c;
 }
