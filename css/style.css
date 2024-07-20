@@ -7,6 +7,7 @@ body {
 
 .container {
     background: #d4d8d8;
+    height: 100%;
 }
 
 .navbar {
@@ -165,9 +166,31 @@ nav ul li a:hover {
     align-items: center;
 }
 
+.footer-main{
+    background: #c7c6d1;
+    width: 100%;
+    margin-top: 95px;
+}
+.footer-main .footer{
+    text-align: center;
+}
 
-button[type="submit"]:hover {
-    background-color: #302e94;
-    box-shadow: 0 0 25px #2418c2d8;
-    color: white !important;
+.footer-main .footer .footer-head{
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer-main .footer .footer-form button{
+    background: #6495ED;
+    margin-left: 20px;
+}
+
+.footer-main .footer .footer-form button:hover{
+    background: #2f67ce;
+}
+
+
+.footer-main .footer .footer-form form{
+    display: flex;
+    margin-left: 250px;
 }

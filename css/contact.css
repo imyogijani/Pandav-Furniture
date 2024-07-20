@@ -8,63 +8,55 @@ body {
   background-color: #d8f6f6;
 }
 
-.nav-bar {
-  background-color: #6495ed;
+.navbar {
   display: flex;
-  padding: 4px;
-  margin: 0 20px 20px 20px;
-  border-radius: 0 0 10px 10px;
 }
 
-.nav-bar .logo {
-  margin: 4px;
-}
 
-.nav-bar .logo img {
-  width: 200px;
-  height: 100px;
-  object-fit: cover;
-}
-
-.nav-links {
+.navbar nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   margin-left: auto;
-  margin-right: auto;
 }
 
+.logo img {
+  height: 90px;
+  margin-right: 200px;
+  width: 200px;
+  padding-left: 10px;
 
-.nav-links ul {
-  display: flex;
-  justify-content: space-around;
+}
+
+.logo h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+}
+
+nav ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px auto;
 }
 
-.nav-links li {
-  padding: 10px;
-  margin-left: 80px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+nav ul li {
+  margin: 15px;
+  font-size: larger;
+  margin-right: 6 0px;
 }
 
-.nav-bar .active a {
-  color: white;
-}
-
-
-.nav-links li a {
-  color: rgb(54, 54, 54);
-  font-family: "Itim", cursive;
-  font-weight: 700;
+nav ul li a {
   text-decoration: none;
-  font-size: 30px;
-  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  color: black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: color 0.3s;
 }
 
-.nav-links li:hover a {
-  color: white;
+nav ul li a:hover {
+  color: #7c7c7c;
 }
 
 .jumbotron {
@@ -153,15 +145,16 @@ hr {
 
 .container .sidebar {
   width: 20%;
+  margin: 100px 5px 0 5px;
   background-color: #4682b4;
   height: auto;
 }
 
 .container .main-content {
-
   width: 50%;
   margin: 100px 5px 0 5px;
   margin-left: auto;
+  margin-right: auto;
 }
 
 .sidebar-1 {
@@ -177,6 +170,7 @@ hr {
 }
 
 .main-content form {
+  display: flex;
   color: #565656;
 }
 
@@ -248,4 +242,10 @@ hr {
 
 .form-tags .form-control button:active {
   background-color: #4682b4;
+}
+
+
+.sidebar .sidebar-content {
+  margin: 20px;
+  margin-top: 30px;
 }
