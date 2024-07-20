@@ -6,9 +6,8 @@ body {
 }
 
 .container {
-    width: 700px;
     background: #d4d8d8;
-    height: 125vh;
+    height: 100%;
 }
 
 .navbar {
