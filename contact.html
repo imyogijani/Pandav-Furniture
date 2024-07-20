@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/contact.css" />
+    <title>Pandav's Furniture</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav-bar">
+        <div class="logo">
+          <img src="/assets/logo.png" alt="logo" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT US</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a href="services.html">SERVICES</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="jumbotron">
+        <div class="content">
+          <h1>Have Questions? We're Here to Help!</h1>
+          <br /><br /><br /><br />
+          <p>
+            Let’s talk about your furniture needs. From product details to order
+            inquiries, we’re ready to assist you every step of the way.
+          </p>
+          <div class="button">
+            <button type="button">Send us a message</button>
+          </div>
+        </div>
+        <div class="heroImage">
+          <img src="/assets/Slide_1.jpg" alt="Slide_1" />
+        </div>
+      </div>
+
+      <div class="radio-container">
+        <label class="radio-btn">
+          <input type="radio" checked="checked" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio-btn">
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+        <label class="radio-btn">
+          <input type="radio" name="radio" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    </header>
+
+    <hr />
+
+    <div class="container">
+      <div class="sidebar"></div>
+
+      <div class="main-content">
+        <form action="">
+          <div class="form-group">
+            <div class="form-heading">
+              <center>
+                <h2>Contact us</h2>
+              
+              <p>
+                Use this form for product inquiries, order updates, or any questions you may have about our furniture
+              </p>
+            </center>
+            </div>
+            <hr>
+
+            <div class="form-tags">
+              <div class="form-control">
+                <label for="name">Full Name:</label>
+                <input type="text" class="form-input" name="name" id="name" placeholder="Enter your name">
+              </div><br><br>
+               <div class="form-control">
+                <label for="Email">Email:</label>
+                <input type="email" class="form-input" name="Email" id="Email" placeholder="Enter your email">
+              </div> <br><br>
+              <div class="form-control">
+                <label for="Number">Phone Number(Optional):</label>
+                <input type="tel" class="form-input" name="name" id="name" placeholder="Enter your Number">
+              </div> <br><br>
+              <div class="form-control">
+                <label for="select">Reason:</label>
+                <select name="reason" id="reason" class="form-input">
+                  <option>Select a reason</option>
+                  <option>Product Inquiry</option>
+                  <option>Order Update</option>
+                  <option>Feedback</option>
+                  <option>Returns & Exchanges</option>
+                  <option>Other</option>
+                </select>
+              </div> <br><br>
+              <div class="form-control">
+                <label for="message">Message</label><br>
+                <textarea name="message" id="message"></textarea>
+              </div> <br><br>
+              <div class="form-control">
+                <button type="submit">Submit Message</button>
+              </div>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+      <div class="sidebar sidebar-1"></div>
+    </div>
+  </body>
+
+  <script src="/js/script.js"></script>
+</html>

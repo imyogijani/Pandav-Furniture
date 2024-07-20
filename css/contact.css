@@ -1,0 +1,247 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #b2d8d8;
+}
+
+.nav-bar {
+  background-color: #6495ed;
+  display: flex;
+  padding: 4px;
+  margin: 0 20px 20px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.nav-bar .logo {
+  margin: 4px;
+}
+
+.nav-bar .logo img {
+  width: 200px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-links li {
+  padding: 10px;
+  margin-left: 80px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+
+
+.nav-links li a {
+  color: rgb(0, 0, 0);
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.nav-links li:hover a {
+  color: white;
+}
+
+.jumbotron {
+  margin-top: 100px;
+  display: flex;
+  width: 100%;
+  margin-left: auto;
+}
+
+.jumbotron .content {
+  width: 45%;
+  margin-left: 50px;
+  font-family: "Skranji", system-ui;
+  color: #272322;
+  margin-right: auto;
+}
+
+.jumbotron .content h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.jumbotron .content p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.jumbotron .content button {
+  margin-top: 50px;
+  background-color: #6495ed;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.jumbotron .content button:hover {
+  background-color: #708090;
+}
+
+.jumbotron .content button:active {
+  background-color: #4682b4;
+}
+
+.jumbotron .heroImage {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+  height: 100%;
+  margin: 0 50px 0 0;
+}
+
+.jumbotron .heroImage img {
+  height: 600px;
+  width: 900px;
+  border-radius: 20px;
+}
+
+.radio-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.radio-container input {
+  margin: 30px;
+}
+
+hr {
+  border: 1px solid #272322;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+}
+
+.container .sidebar {
+  width: 20%;
+  background-color: #4682b4;
+  height: auto;
+}
+
+.container .main-content {
+
+  width: 50%;
+  margin: 100px 5px 0 5px;
+  margin-left: auto;
+}
+
+.sidebar-1 {
+  margin-left: auto;
+}
+
+.main-content {
+  margin-top: 20px;
+  margin-left: auto;
+  background-color: #c0c0c0;
+  border-radius: 20px;
+  border: 1px solid #565656;
+}
+
+.main-content form {
+  color: #565656;
+}
+
+.main-content .form-heading h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  color: #565656;
+}
+
+.main-content .form-heading p {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 26px;
+  margin-left: auto;
+}
+
+
+.form-group .form-tags {
+  margin: 20px;
+  padding: 3px;
+}
+
+.form-group .form-tags label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.form-group .form-tags .form-input,
+.form-group .form-tags button,
+.form-group .form-tags textarea {
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  border: 2px solid #565656;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+.form-group .form-tags textarea {
+  min-width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+
+.form-tags .form-control button {
+  font-size: 26px;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #6495ed;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+.form-tags .form-control button:hover {
+  background-color: #708090;
+}
+
+.form-tags .form-control button:active {
+  background-color: #4682b4;
+}

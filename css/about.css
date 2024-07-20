@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(219, 239, 239, 1);
+}
+
+.nav-bar {
+    background-color: #6495ed;
+    display: flex;
+    padding: 4px;
+    margin: 0 4px 4px 4px;
+    border-radius: 0 0 10px 10px;
+}
+  
+.nav-bar .logo {
+    margin: 4px;
+}
+  
+.nav-bar .logo img {
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+}
+  
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.nav-links ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-links li {
+    padding: 5px;
+    margin-left: 80px;
+}
+  
+.nav-links li a {
+    color: black;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+}
+.nav-links li a:hover{
+    color: white;
+}
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 10px;
+}
+.container img{
+    width: 40%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.container .content h1{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+
+.content p{
+    width: 60%;
+    margin-left: 20px;
+    text-align: justify;
+    color: white;
+}
+.team .container{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.team h1{
+    align-self: flex-start;
+}
+.team-member{
+    margin: 20px;
+    text-align: left;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+.team-member img{
+    width: 100%;
+    height: auto;
+}
+
+.team-member h3{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    
+}
+
+.team-member p{
+    font-family: "Times New Roman", Times, serif;
+    width: 80%;
+    margin-left: 20px;
+    
+}
+footer{
+    background-color: #6495ed;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    border-radius: 10px 10px 0 0;
+    margin: 4px 4px 0 4px;
+}
+footer .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1200px;
+}
