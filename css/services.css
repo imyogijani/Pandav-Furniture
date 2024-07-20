@@ -6,6 +6,10 @@ body {
 }
 
 .container {
+    background-color: #DBEFEF;
+}
+
+.navbar {
     background: #d4d8d8;
 }
 
@@ -51,4 +55,33 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #7c7c7c;
+}
+
+.service {
+    display: flex;
+    margin-top: 100px;
+}
+
+.service .services-button {
+    margin-top: 10px;
+
+}
+
+.service .services-image {
+    margin-left: auto;
+}
+
+.service .services-image img {
+    width: 500px;
+}
+
+.service .services-button button {
+    background-color: #6495ED;
+    padding: 4px;
+    border: 2px solid #3976e7;
+    border-radius: 5px;
+}
+
+.service .services-button .button-2 {
+    margin-left: 20px;
 }
