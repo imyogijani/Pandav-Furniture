@@ -34,6 +34,7 @@ body {
   margin-right: auto;
 }
 
+
 .nav-links ul {
   display: flex;
   justify-content: space-around;
@@ -48,12 +49,15 @@ body {
   transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
+.nav-bar .active a {
+  color: white;
+}
 
 
 .nav-links li a {
-  color: rgb(0, 0, 0);
+  color: rgb(54, 54, 54);
   font-family: "Itim", cursive;
-  font-weight: 400;
+  font-weight: 700;
   text-decoration: none;
   font-size: 30px;
   transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
