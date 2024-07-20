@@ -1,37 +1,21 @@
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-background-color: #d8f6f6;}
-
-header {
-    background-color: #6495ED;
-    padding: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    height: 150px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container{
+    background: #d4d8d8;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-    margin-right: 400px;    
-    font-size: larger;
-    padding-top: 20px;
-}
-
-
-.logo {
-    display: flex;
-    align-items: center;
+.navbar{
+    /* background: #6495ED;
+    border-radius: 5px; */
 }
 
 .logo img {
     height: 90px;
-    margin-right: 5px;
+    margin-right: 200px;
     width: 200px ;
     padding-left: 10px;
 
@@ -52,23 +36,10 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 20px;
+    margin: 15px;
     font-size: larger ;
     margin-right: 6 0px ;
-    margin-left: px;
 }
-
-nav ul li input {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    
-        border: 2px solid black;
-        height: 30px;
-        width: 160px;
-        background-color: #DBEFEF;
-        font-size: smaller;
-    }
 
 nav ul li a {
     text-decoration: none;
@@ -78,26 +49,26 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffffff;
+    color: #7c7c7c;
 }
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around;
     align-items: center;
-    padding: 20px;
-        border-radius: 10px;
+    margin-top: 30px;
+    background: #acc4df;
 }
 
 .hero-content {
     max-width: 500px;
-    margin-left: 200px;
+    /* margin-left: 200px; */
 
 }
 
 .hero-content h2 {
     font-family: 'Lobster', cursive;
-    font-size: 48px;
+    font-size: 40px;
     margin: 0;
 }
 
@@ -126,118 +97,70 @@ nav ul li a:hover {
     width: 300px;
     height: 300px;
     border-radius: 10px;
-    margin-right: 200px;
-    
-    
 }
 
-.business-furniture {
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-}
-
-.business-furniture h2 {
-    font-size: 36px;
-    margin-right: 100px;
-    margin-left: 500px;
-}
-
-.business-furniture h3 {
-    font-size: 30px;
-    margin: 10px 0;
-    margin-right: 100px;
-    margin-left: 500px;
-}
-
-.business-furniture p {
-    font-size: 18px;
-    color: #555;
-    text-align: center;
-    margin-right: 400px;
-    margin-left: 600px;
+.about-us .about{
+    margin-top: 30px;
+    display: flex;
     justify-content: center;
-    text-justify: 10px;
-
-}
-.business-furniture img{
-    font-size: 18px;
-    color: #555;
+    align-items: top;
     text-align: center;
-    margin-right: 100px;
+}
+.about-us .about img{
     height: 500px;
-    float: left;
     border-radius: 30px;
     border: 3px solid black;
-    margin-left: 100px;
 }
 
-.explore-furniture {
- 
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
+.about-us .about .text-content{
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 50px;
 }
 
-.explore-furniture h2 {
+.about-us .about .text-content .about-heading{
+    background: #c7c6d1;
+    border: 1px solid #c7c6d1;
+    border-radius: 50px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+.about-us .about .text-content .about-heading:hover{
+    background: #c7c6d1;
+    border: 1px solid #c7c6d1;
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.about-us .about .text-content h2{
     font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.icons {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 20px;
+.about-us .about .text-content h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.icon {
-    font-size: 18px;
-    margin: 10px;
-    padding: 10px 20px;
-    border-radius: 5px;
-
+.about-us .about .text-content p{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.newsletter {
-   
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.our-works{
+    margin-top: 30px;
+}
+
+.our-works .works .work-heading{
     text-align: center;
-    background-color: #6495ED;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.newsletter p {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-weight: 200px;
-    font-size: x-large;
-}
-
-.newsletter form {
+.our-works .works .slider{
     display: flex;
     justify-content: center;
-}
-
-.newsletter input {
-    padding: 10px;
-    border: 1px solid #6495ED;
-    border-radius: 5px 0 0 5px;
-    border: 4px solid white;
-    color: white;
-
-}
-
-.newsletter button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #DBEFEF;
-    color: white;
-    color: black;
-    font-size: 18px;
-    border-radius: 0 5px 5px 0;
-    cursor: pointer;
-    transition: background-color 0.3s;
+    align-items: center;
 }
 
 
