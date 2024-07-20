@@ -1,98 +1,54 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav-bar {
-    background-color: #6495ed;
-    display: flex;
-    padding: 4px;
-    margin: 0 4px 4px 4px;
-    border-radius: 0 0 10px 10px;
+.container {
+    background: #d4d8d8;
 }
-  
-.nav-bar .logo {
-    margin: 4px;
+
+.navbar {
+    /* background: #6495ED;
+    border-radius: 5px; */
 }
-  
-.nav-bar .logo img {
+
+.logo img {
+    height: 90px;
+    margin-right: 200px;
     width: 200px;
-    height: 100px;
-    object-fit: cover;
+    padding-left: 10px;
+
 }
-  
-.nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+
+.logo h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
 }
-  
-.nav-links ul {
-    display: flex;
-    justify-content: space-around;
+
+nav ul {
     list-style: none;
-}
-.nav-links li {
-    padding: 5px;
-    margin-left: 80px;
-}
-  
-.nav-links li a {
-    color: black;
-    font-weight: 400;
-    text-decoration: none;
-    font-size: 20px;
-}
-.nav-links li a:hover{
-    color: white;
-}
-
-
-main {
-    background-color: #E3F2FD;
-    padding: 20px;
-}
-
-.services {
-    text-align: center;
-}
-
-.services h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-}
-
-.actions {
-    margin-bottom: 20px;
-}
-
-.actions button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #0056b3;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.service-cards {
     display: flex;
-    justify-content: center;
-    gap: 40px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 100px auto;
 }
 
-.card {
-    text-align: center;
+nav ul li {
+    margin: 15px;
+    font-size: larger;
+    margin-right: 6 0px;
 }
 
-.card img {
-    width: 50px;
-    height: 50px;
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
 }
 
-
+nav ul li a:hover {
+    color: #7c7c7c;
+}
