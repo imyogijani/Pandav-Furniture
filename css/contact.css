@@ -8,63 +8,55 @@ body {
   background-color: #d8f6f6;
 }
 
-.nav-bar {
-  background-color: #6495ed;
+.navbar {
   display: flex;
-  padding: 4px;
-  margin: 0 20px 20px 20px;
-  border-radius: 0 0 10px 10px;
 }
 
-.nav-bar .logo {
-  margin: 4px;
-}
 
-.nav-bar .logo img {
-  width: 200px;
-  height: 100px;
-  object-fit: cover;
-}
-
-.nav-links {
+.navbar nav {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   margin-left: auto;
-  margin-right: auto;
 }
 
+.logo img {
+  height: 90px;
+  margin-right: 200px;
+  width: 200px;
+  padding-left: 10px;
 
-.nav-links ul {
-  display: flex;
-  justify-content: space-around;
+}
+
+.logo h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 24px;
+}
+
+nav ul {
   list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px auto;
 }
 
-.nav-links li {
-  padding: 10px;
-  margin-left: 80px;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+nav ul li {
+  margin: 15px;
+  font-size: larger;
+  margin-right: 6 0px;
 }
 
-.nav-bar .active a {
-  color: white;
-}
-
-
-.nav-links li a {
-  color: rgb(54, 54, 54);
-  font-family: "Itim", cursive;
-  font-weight: 700;
+nav ul li a {
   text-decoration: none;
-  font-size: 30px;
-  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+  color: black;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  transition: color 0.3s;
 }
 
-.nav-links li:hover a {
-  color: white;
+nav ul li a:hover {
+  color: #7c7c7c;
 }
 
 .jumbotron {
@@ -145,6 +137,92 @@ hr {
   margin: 0;
 }
 
+/* .container {
+  display: flex;
+  width: 100%;
+  margin-top: 0;
+}
+
+.container .sidebar {
+  width: 20%;
+  margin: 0 0px 0 0;
+  background-color: #4682b4;
+  height: auto;
+}
+
+.container .main-content {
+  width: 50%;
+  margin: 100px 5px 100px 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sidebar-1 {
+  margin-left: auto;
+}
+
+.main-content {
+  margin-top: 20px;
+  margin-left: auto;
+  background-color: #c0c0c0;
+  border-radius: 20px;
+  border: 1px solid #565656;
+}
+
+.main-content form {
+  display: flex;
+  color: #565656;
+}
+
+.main-content .form-heading h2 {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  color: #565656;
+}
+
+.main-content .form-heading p {
+  font-family: "Saira", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 26px;
+  margin-left: auto;
+}
+
+
+.form-group .form-tags {
+  margin: 20px;
+  padding: 3px;
+}
+
+.form-group .form-tags label {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.form-group .form-tags .form-input, .form-group .form-tags button, .form-group .form-tags textarea{
+  width: 100%;
+  padding: 10px;
+  background: none;
+  outline: none;
+  border: none;
+  border: 2px solid #565656;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+
+.form-group .form-tags textarea{
+ min-width: 100%;
+ min-height: 150px;
+ max-height: 150px;
+ max-width: 100%;  
+ font-family: sans-serif;
+ font-size: 16px;
+} */
+
+
 .container {
   display: flex;
   width: 100%;
@@ -160,7 +238,7 @@ hr {
 .container .main-content {
 
   width: 50%;
-  margin: 100px 5px 0 5px;
+  margin: 100px 5px 100px 5px;
   margin-left: auto;
 }
 
@@ -197,19 +275,17 @@ hr {
 }
 
 
-.form-group .form-tags {
+.form-group .form-tags{
   margin: 20px;
   padding: 3px;
 }
 
-.form-group .form-tags label {
+.form-group .form-tags label{
   font-size: 20px;
   font-family: sans-serif;
 }
 
-.form-group .form-tags .form-input,
-.form-group .form-tags button,
-.form-group .form-tags textarea {
+.form-group .form-tags .form-input, .form-group .form-tags button, .form-group .form-tags textarea{
   width: 100%;
   padding: 10px;
   background: none;
@@ -221,14 +297,38 @@ hr {
 }
 
 
-.form-group .form-tags textarea {
-  min-width: 100%;
-  min-height: 150px;
-  max-height: 150px;
-  max-width: 100%;
-  font-family: sans-serif;
-  font-size: 16px;
+.form-group .form-tags textarea{
+ min-height: 150px;
+ max-height: 150px;
+ min-width: 100%;
+ max-width: 100%;  
+ font-family: sans-serif;
+ font-size: 16px;
+ -webkit-resize: none;
+  resize: none;
 }
+
+.scroll::-webkit-scrollbar{
+  display: none;
+}
+
+.form-tags .form-control button{
+  font-size: 26px;
+  font-family: "Source Sans 3", sans-serif;
+  background-color: #6495ed;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+
+}
+
+.form-tags .form-control button:hover{
+  background-color: #708090;
+}.form-tags .form-control button:active{
+  background-color: #4682b4;
+}
+
 
 
 .form-tags .form-control button {
@@ -248,4 +348,114 @@ hr {
 
 .form-tags .form-control button:active {
   background-color: #4682b4;
+}
+
+
+.sidebar .sidebar-content {
+  margin: 20px;
+  margin-top: 100px;
+}
+
+.sidebar .sidebar-content h1{
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+.sidebar .sidebar-content i{
+  font-size: 30px;
+  color: white;
+}
+
+.sidebar-content p{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+  color: white;
+  margin-top: 60px;
+}
+
+.sidebar-content span{
+  margin-left: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: #4682b4;
+  padding: 50px;
+  margin: 0;
+  color: white;
+  
+}
+
+.shop-list{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Source Sans 3", sans-serif;
+ 
+}
+
+.shop-list h1{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.shop-list ul{
+  list-style-type: none;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.shop-list ul li{
+  margin-top: 10px;
+  font-weight: 300;
+cursor: pointer;
+}
+
+.help-list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+
+}
+
+.help-list h1{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.help-list ul{
+  list-style-type: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.help-list li{
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.terms{
+  display: flex;
+  cursor: pointer;
+}
+
+.terms p{
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300; 
+  margin-top: 40px;
+  margin-right: 50px;
 }

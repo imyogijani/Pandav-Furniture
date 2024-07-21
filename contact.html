@@ -12,25 +12,26 @@
   <link href="https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/contact.css" />
   <title>Pandav's Furniture</title>
 </head>
 
 <body>
   <header>
-    <div class="nav-bar">
+    <div class="navbar">
       <div class="logo">
-        <img src="/assets/logo.png" alt="logo" />
+        <img src="assets/logo.png" alt="Pandav Logo">
       </div>
-      <div class="nav-links">
+      <nav>
         <ul>
           <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT US</a></li>
-          <li class="active"><a href="contact.html">CONTACT US</a></li>
           <li><a href="shop.html">SHOP</a></li>
-          <li><a href="services.html">SERVICES</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="services.html">SERVICE</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
 
     <div class="jumbotron">
@@ -111,7 +112,7 @@
             </div> <br><br>
             <div class="form-control">
               <label for="message">Message</label><br>
-              <textarea name="message" id="message"></textarea>
+              <textarea name="message" class="scroll" id="message"></textarea>
             </div> <br><br>
             <div class="form-control">
               <button type="submit">Submit Message</button>
@@ -122,8 +123,80 @@
       </form>
     </div>
 
-    <div class="sidebar sidebar-1"></div>
+    <div class="sidebar sidebar-1">
+      <div class="sidebar-content">
+        <h1>
+          Additional Information
+        </h1>
+
+        <p>
+          <i class="fa fa-map-marker"></i><br>
+          <span>
+          101 A, Plot No 2 & 3, Shakti Kiran Building, G T Road, Roop Nagar,Delhi
+        </span>
+        </p>
+        <p>
+          <i class="fa fa-phone" aria-hidden="true"></i><br>
+          <span>(952) 936-7727</span>
+          
+          
+          
+        </p>
+        <p>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i><br>
+          <span>sale_pandavs.furniture@gmail.com</span>
+        </p> 
+        <p>
+          <i class="fa fa-instagram" aria-hidden="true"></i></i><br>
+          <span></span>Pandav’s_Furniture</span>
+        </p>
+        <p>
+          <i class="fa fa-twitter" aria-hidden="true"></i></i><br>
+          <span></span>Pandav’s Furniture</span>
+        </p>
+        <p>
+          <i class="fa fa-facebook" aria-hidden="true"></i></i><br>
+          <span></span>Pandav’s.Furniture</span>
+        </p>
+
+      </div>
+    </div>
   </div>
+
+  <div class="footer">
+    <div class="shop-list">
+      <h1>Shop</h1>
+      <ul>
+        <li>Living Room Furniture</li>
+        <li>Bedroom Furniture</li>
+        <li>Dining Room Furniture</li>
+        <li>Storage Solutions</li>
+        <li>Home Decor</li>
+      </ul>
+
+      <div class="copy-right">
+        <p>Copyright © 1999 Pandav's Furniture. All rights reserved.</p>
+      </div>
+
+    </div>
+    <div class="help-list">
+      <h1>Help</h1>
+      <ul>
+        <li>FAQS</li>
+        <li>Live Chat Option</li>
+        <li>Availability</li>
+        <li>Accessibility</li>
+      </ul>
+
+      <div class="terms">
+        <p>Terms & Conditions</p>
+        <p>Privacy Policy</p>
+      </div>
+
+    </div>
+
+  </div>
+
 </body>
 
 <script src="/js/script.js"></script>
