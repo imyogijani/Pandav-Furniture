@@ -6,6 +6,8 @@ body {
 }
 
 .container {
+    max-width: 1440px;
+    margin: auto;
     background: #d4d8d8;
     height: 100%;
 }
@@ -166,31 +168,32 @@ nav ul li a:hover {
     align-items: center;
 }
 
-.footer-main{
+.footer-main {
     background: #c7c6d1;
     width: 100%;
     margin-top: 95px;
 }
-.footer-main .footer{
+
+.footer-main .footer {
     text-align: center;
 }
 
-.footer-main .footer .footer-head{
+.footer-main .footer .footer-head {
     text-align: center;
     font-weight: bold;
 }
 
-.footer-main .footer .footer-form button{
+.footer-main .footer .footer-form button {
     background: #6495ED;
     margin-left: 20px;
 }
 
-.footer-main .footer .footer-form button:hover{
+.footer-main .footer .footer-form button:hover {
     background: #2f67ce;
 }
 
 
-.footer-main .footer .footer-form form{
+.footer-main .footer .footer-form form {
     display: flex;
     margin-left: 250px;
 }

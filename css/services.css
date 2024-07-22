@@ -6,6 +6,8 @@ body {
 }
 
 .container {
+    max-width: 1440px;
+    margin: auto;
     background-color: #DBEFEF;
 }
 
@@ -85,4 +87,3 @@ nav ul li a:hover {
 .service .services-button .button-2 {
     margin-left: 20px;
 }
-
