@@ -76,16 +76,17 @@ nav ul li a:hover {
   width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: auto;
   background-color: #acc4df;
 }
 
 .jumbotron .content {
-  width: 55%;
-  margin-left: 50px;
   font-family: "Poppins", sans-serif;
   color: #272322;
-  margin-right: auto;
+  margin-right: 30px;
+  margin-left: 15%;
 }
 
 .jumbotron .content h1 {
@@ -127,7 +128,7 @@ nav ul li a:hover {
   justify-content: end;
   width: 100%;
   height: 100%;
-  margin: 0 50px 0 0;
+  margin-right: 15%;
 }
 
 .jumbotron .heroImage img {
