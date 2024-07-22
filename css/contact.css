@@ -367,7 +367,7 @@ hr {
 }
 
 .sidebar .sidebar-content h1 {
-  s font-optical-sizing: auto;
+  font-optical-sizing: auto;
   font-weight: 700;
   font-size: 40px;
   color: white;
