@@ -45,13 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f0f0f0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
+    color: #7c7c7c;
 }
 
 header {
