@@ -6,11 +6,11 @@ body {
 }
 
 .screen {
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     background: #d4d8d8;
     height: 100%;
-  }  
+}
 
 
 .logo img {
@@ -38,7 +38,7 @@ nav ul {
 nav ul li {
     margin: 15px;
     font-size: larger;
-    margin-right: 6 0px;
+    margin-right: 60px;
 }
 
 nav ul li a {
@@ -52,31 +52,129 @@ nav ul li a:hover {
     color: #7c7c7c;
 }
 
-.service {
+.hero {
     display: flex;
-    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    background: #acc4df;
 }
 
-.service .services-button {
-    margin-top: 10px;
+.hero-content {
+    max-width: 500px;
+    /* margin-left: 200px; */
 
 }
 
-.service .services-image {
-    margin-left: auto;
+.hero-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin: 0;
 }
 
-.service .services-image img {
-    width: 500px;
+.hero-content p {
+    font-size: 24px;
+    color: #555;
 }
 
-.service .services-button button {
+.hero-content button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
     background-color: #6495ED;
-    padding: 4px;
-    border: 2px solid #3976e7;
+    color: white;
+    font-size: 18px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
-.service .services-button .button-2 {
-    margin-left: 20px;
+.hero-content button:hover {
+    background-color: #0056b3;
+}
+
+.hero-image img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4682b4;
+    padding: 50px;
+    margin: 0;
+    color: white;
+
+}
+
+.shop-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Source Sans 3", sans-serif;
+
+}
+
+.shop-list h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.shop-list ul {
+    list-style-type: none;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.shop-list ul li {
+    margin-top: 10px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.help-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+
+}
+
+.help-list h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.help-list ul {
+    list-style-type: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+    margin-top: 4px;
+    padding: 0;
+}
+
+.help-list li {
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.terms {
+    display: flex;
+    cursor: pointer;
+}
+
+.terms p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-right: 50px;
 }

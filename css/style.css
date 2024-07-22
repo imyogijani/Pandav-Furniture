@@ -10,7 +10,7 @@ body {
 }
 
 .screen {
-    max-width: 1440px;
+    max-width: 100%;
     margin: auto;
     background: #d4d8d8;
     height: 100%;
@@ -43,7 +43,7 @@ nav ul {
 nav ul li {
     margin: 15px;
     font-size: larger;
-    margin-right: 6 0px;
+    margin-right: 60px;
 }
 
 nav ul li a {
@@ -108,7 +108,7 @@ nav ul li a:hover {
     margin-top: 30px;
     display: flex;
     justify-content: center;
-    align-items: top;
+    align-items: center;
     text-align: center;
 }
 
@@ -119,12 +119,17 @@ nav ul li a:hover {
 }
 
 .about-us .about .text-content {
-    width: 500px;
+    width: 50%;
+    margin-top: -66px;
     margin-left: 70px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-us .about .text-content .about-heading {
+    width: 50%;
     background: #c7c6d1;
     border: 1px solid #c7c6d1;
     border-radius: 50px;
