@@ -5,18 +5,13 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container {
-    background-color: #DBEFEF;
-}
-
-.navbar {
+.screen {
+    max-width: 1440px;
+    margin: auto;
     background: #d4d8d8;
-}
+    height: 100%;
+  }  
 
-.navbar {
-    /* background: #6495ED;
-    border-radius: 5px; */
-}
 
 .logo img {
     height: 90px;
@@ -85,4 +80,3 @@ nav ul li a:hover {
 .service .services-button .button-2 {
     margin-left: 20px;
 }
-

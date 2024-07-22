@@ -5,6 +5,16 @@
 body {
   margin: 0;
   padding: 0;
+
+}
+
+.screen {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #d8f6f6;
+}
+
+header .jumbotron {
   background-color: #d8f6f6;
 }
 
@@ -275,17 +285,19 @@ hr {
 }
 
 
-.form-group .form-tags{
+.form-group .form-tags {
   margin: 20px;
   padding: 3px;
 }
 
-.form-group .form-tags label{
+.form-group .form-tags label {
   font-size: 20px;
   font-family: sans-serif;
 }
 
-.form-group .form-tags .form-input, .form-group .form-tags button, .form-group .form-tags textarea{
+.form-group .form-tags .form-input,
+.form-group .form-tags button,
+.form-group .form-tags textarea {
   width: 100%;
   padding: 10px;
   background: none;
@@ -297,22 +309,22 @@ hr {
 }
 
 
-.form-group .form-tags textarea{
- min-height: 150px;
- max-height: 150px;
- min-width: 100%;
- max-width: 100%;  
- font-family: sans-serif;
- font-size: 16px;
- -webkit-resize: none;
+.form-group .form-tags textarea {
+  min-height: 150px;
+  max-height: 150px;
+  min-width: 100%;
+  max-width: 100%;
+  font-family: sans-serif;
+  font-size: 16px;
+  -webkit-resize: none;
   resize: none;
 }
 
-.scroll::-webkit-scrollbar{
+.scroll::-webkit-scrollbar {
   display: none;
 }
 
-.form-tags .form-control button{
+.form-tags .form-control button {
   font-size: 26px;
   font-family: "Source Sans 3", sans-serif;
   background-color: #6495ed;
@@ -323,9 +335,11 @@ hr {
 
 }
 
-.form-tags .form-control button:hover{
+.form-tags .form-control button:hover {
   background-color: #708090;
-}.form-tags .form-control button:active{
+}
+
+.form-tags .form-control button:active {
   background-color: #4682b4;
 }
 
@@ -356,7 +370,7 @@ hr {
   margin-top: 100px;
 }
 
-.sidebar .sidebar-content h1{
+.sidebar .sidebar-content h1 {
   font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -364,60 +378,60 @@ hr {
   color: white;
 }
 
-.sidebar .sidebar-content i{
+.sidebar .sidebar-content i {
   font-size: 30px;
   color: white;
 }
 
-.sidebar-content p{
+.sidebar-content p {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 400;
   color: white;
   margin-top: 60px;
 }
 
-.sidebar-content span{
+.sidebar-content span {
   margin-left: 10px;
 }
 
-.footer{
+.footer {
   display: flex;
   justify-content: space-between;
   background-color: #4682b4;
   padding: 50px;
   margin: 0;
   color: white;
-  
+
 }
 
-.shop-list{
+.shop-list {
   display: flex;
   flex-direction: column;
   text-align: left;
   font-family: "Source Sans 3", sans-serif;
- 
+
 }
 
-.shop-list h1{
+.shop-list h1 {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 0;
 }
 
-.shop-list ul{
+.shop-list ul {
   list-style-type: none;
   margin-top: 4px;
   padding: 0;
 }
 
-.shop-list ul li{
+.shop-list ul li {
   margin-top: 10px;
   font-weight: 300;
-cursor: pointer;
+  cursor: pointer;
 }
 
-.help-list{
+.help-list {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -425,7 +439,7 @@ cursor: pointer;
 
 }
 
-.help-list h1{
+.help-list h1 {
   font-family: "Source Sans 3", sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -433,7 +447,7 @@ cursor: pointer;
   text-align: left;
 }
 
-.help-list ul{
+.help-list ul {
   list-style-type: none;
   font-family: "Source Sans 3", sans-serif;
   font-weight: 300;
@@ -441,21 +455,21 @@ cursor: pointer;
   padding: 0;
 }
 
-.help-list li{
+.help-list li {
   text-align: left;
   margin-top: 10px;
   cursor: pointer;
 }
 
 
-.terms{
+.terms {
   display: flex;
   cursor: pointer;
 }
 
-.terms p{
+.terms p {
   font-family: "Source Sans 3", sans-serif;
-  font-weight: 300; 
+  font-weight: 300;
   margin-top: 40px;
   margin-right: 50px;
 }
