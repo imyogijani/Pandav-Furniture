@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 .hero-content {
   max-width: 60%;
-  /* margin-left: 200px; */
+  margin-left: 60px; 
 
 }
 
@@ -79,8 +79,9 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
+  margin-right: 60px;
 }
 
 .btn {
@@ -141,7 +142,7 @@ nav ul li a:hover {
   justify-content: space-around;
   align-items: center;
   margin-top: 30px;
-  margin-left: -100px;
+  margin-left: -8.7%;
 }
 .img-wrap {
   border-radius: 5%;
