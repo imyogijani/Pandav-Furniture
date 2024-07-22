@@ -18,7 +18,7 @@ body {
 }
 
 .logo h1 {
-    font-family: 'Lobster', cursive;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
 }
 
@@ -45,13 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #f0f0f0;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
+    color: #7c7c7c;
 }
 
 header {
@@ -62,7 +56,7 @@ header {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 20px;
 }
