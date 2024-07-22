@@ -11,11 +11,7 @@ body {
 .screen {
   max-width: 1440px;
   margin: auto;
-  background-color: #d8f6f6;
-}
-
-header .jumbotron {
-  background-color: #d8f6f6;
+  background-color: rgb(212, 216, 216);
 }
 
 .navbar {
@@ -127,8 +123,8 @@ nav ul li a:hover {
 }
 
 .jumbotron .heroImage img {
-  height: 600px;
-  width: 900px;
+  height: 400px;
+  width: 700px;
   border-radius: 20px;
 }
 
