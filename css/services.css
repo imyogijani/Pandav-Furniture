@@ -5,20 +5,13 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.container {
+.screen {
     max-width: 1440px;
     margin: auto;
-    background-color: #DBEFEF;
-}
-
-.navbar {
     background: #d4d8d8;
-}
+    height: 100%;
+  }  
 
-.navbar {
-    /* background: #6495ED;
-    border-radius: 5px; */
-}
 
 .logo img {
     height: 90px;

@@ -4,18 +4,13 @@ body {
   background-color: rgba(219, 239, 239, 1);
 }
 
-.container {
-  background: #d4d8d8;
-  width: 100%;
-  height: auto;
+.screen {
   max-width: 1440px;
   margin: auto;
+  background: #d4d8d8;
+  height: 100%;
 }
 
-.navbar {
-  /* background: #6495ED;
-    border-radius: 5px; */
-}
 
 .logo img {
   height: 90px;

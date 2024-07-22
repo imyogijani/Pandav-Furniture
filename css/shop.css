@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: rgba(219, 239, 239, 1);
 }
 
-.container {
+.screen {
     max-width: 1440px;
     margin: auto;
-    background: #5ca5a5;
+    background: #d4d8d8;
+    height: 100%;
 }
 
 .logo img {
