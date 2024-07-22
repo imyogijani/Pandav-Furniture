@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-
 }
 
 body {
@@ -10,10 +9,13 @@ body {
 
 }
 
+header .navbar {}
+
 .screen {
   max-width: 1440px;
   margin: auto;
-  background-color: rgb(212, 216, 216);
+  background-color: #d4d8d8;
+
 }
 
 .navbar {
@@ -67,7 +69,7 @@ nav ul li a:hover {
 }
 
 .jumbotron {
-  margin-top: 100px;
+  margin-top: 50px;
   display: flex;
   width: 100%;
   padding-top: 20px;
@@ -133,9 +135,10 @@ nav ul li a:hover {
 }
 
 .radio-container {
-  margin-top: 50px;
+  margin-top: 0;
   display: flex;
   justify-content: center;
+  background-color: #acc4df;
 }
 
 .radio-container input {
@@ -237,12 +240,14 @@ hr {
   display: flex;
   width: 100%;
   margin-top: 0;
+  background-color: #d4d8d8;
 }
 
 .container .sidebar {
   width: 20%;
-  background-color: #4682b4;
+  background-color: #d4d8d8;
   height: auto;
+
 }
 
 .container .main-content {
@@ -250,6 +255,7 @@ hr {
   width: 50%;
   margin: 100px 5px 100px 5px;
   margin-left: auto;
+
 }
 
 .sidebar-1 {
@@ -260,12 +266,16 @@ hr {
   margin-top: 20px;
   margin-left: auto;
   background-color: #c0c0c0;
+  border: 1px solid black;
   border-radius: 20px;
-  border: 1px solid #565656;
 }
 
 .main-content form {
   color: #565656;
+  padding: 10px;
+  background-color: #acc4df;
+  border-radius: 20px;
+
 }
 
 .main-content .form-heading h2 {
@@ -273,7 +283,7 @@ hr {
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 50px;
-  color: #565656;
+  color: #000000;
 }
 
 .main-content .form-heading p {
@@ -281,6 +291,7 @@ hr {
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 26px;
+  width: 100%;
   margin-left: auto;
 }
 
@@ -373,23 +384,24 @@ hr {
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 40px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .sidebar .sidebar-content i {
   font-size: 30px;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .sidebar-content p {
   /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 400;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-top: 60px;
 }
 
 .sidebar-content span {
   margin-left: 10px;
+  font-size: 12px;
 }
 
 .footer {
