@@ -201,3 +201,83 @@ nav ul li a:hover {
     display: flex;
     margin-left: 250px;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4682b4;
+    padding: 50px;
+    margin: 30px 0 0 0;
+    color: white;
+  
+  }
+  
+  .shop-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    /* font-family: "Source Sans 3", sans-serif; */
+  
+  }
+  
+  .shop-list h1 {
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  
+  .shop-list ul {
+    list-style-type: none;
+    margin-top: 4px;
+    padding: 0;
+  }
+  
+  .shop-list ul li {
+    margin-top: 10px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .help-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+  
+  }
+  
+  .help-list h1 {
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .help-list ul {
+    list-style-type: none;
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-weight: 300;
+    margin-top: 4px;
+    padding: 0;
+  }
+  
+  .help-list li {
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .terms {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .terms p {
+    /* font-family: "Source Sans 3", sans-serif; */
+    font-weight: 300;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
