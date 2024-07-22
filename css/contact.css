@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+
 }
 
 body {
@@ -11,11 +13,7 @@ body {
 .screen {
   max-width: 1440px;
   margin: auto;
-  background-color: #d8f6f6;
-}
-
-header .jumbotron {
-  background-color: #d8f6f6;
+  background-color: rgb(212, 216, 216);
 }
 
 .navbar {
@@ -38,7 +36,6 @@ header .jumbotron {
 }
 
 .logo h1 {
-  font-family: 'Lobster', cursive;
   font-size: 24px;
 }
 
@@ -61,7 +58,7 @@ nav ul li a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Poppins", sans-serif;
   transition: color 0.3s;
 }
 
@@ -77,9 +74,9 @@ nav ul li a:hover {
 }
 
 .jumbotron .content {
-  width: 45%;
+  width: 55%;
   margin-left: 50px;
-  font-family: "Skranji", system-ui;
+  font-family: "Poppins", sans-serif;
   color: #272322;
   margin-right: auto;
 }
@@ -92,7 +89,7 @@ nav ul li a:hover {
 
 .jumbotron .content p {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .jumbotron .content button {
@@ -103,7 +100,7 @@ nav ul li a:hover {
   font-size: 20px;
   padding: 10px;
   border: none;
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   cursor: pointer;
@@ -127,8 +124,8 @@ nav ul li a:hover {
 }
 
 .jumbotron .heroImage img {
-  height: 600px;
-  width: 900px;
+  height: 400px;
+  width: 700px;
   border-radius: 20px;
 }
 
@@ -269,7 +266,7 @@ hr {
 }
 
 .main-content .form-heading h2 {
-  font-family: "Source Sans 3", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-size: 50px;
@@ -277,7 +274,7 @@ hr {
 }
 
 .main-content .form-heading p {
-  font-family: "Saira", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 26px;
@@ -292,7 +289,7 @@ hr {
 
 .form-group .form-tags label {
   font-size: 20px;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-group .form-tags .form-input,
@@ -314,7 +311,7 @@ hr {
   max-height: 150px;
   min-width: 100%;
   max-width: 100%;
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 16px;
   -webkit-resize: none;
   resize: none;
@@ -326,7 +323,6 @@ hr {
 
 .form-tags .form-control button {
   font-size: 26px;
-  font-family: "Source Sans 3", sans-serif;
   background-color: #6495ed;
   color: white;
   font-weight: 700;
@@ -347,7 +343,7 @@ hr {
 
 .form-tags .form-control button {
   font-size: 26px;
-  font-family: "Source Sans 3", sans-serif;
+
   background-color: #6495ed;
   color: white;
   font-weight: 700;
@@ -371,10 +367,9 @@ hr {
 }
 
 .sidebar .sidebar-content h1 {
-  font-family: "Source Sans 3", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   color: white;
 }
 
@@ -384,7 +379,7 @@ hr {
 }
 
 .sidebar-content p {
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 400;
   color: white;
   margin-top: 60px;
@@ -408,12 +403,12 @@ hr {
   display: flex;
   flex-direction: column;
   text-align: left;
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
 
 }
 
 .shop-list h1 {
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 0;
@@ -440,7 +435,7 @@ hr {
 }
 
 .help-list h1 {
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 700;
   font-size: 40px;
   margin-bottom: 0;
@@ -449,7 +444,7 @@ hr {
 
 .help-list ul {
   list-style-type: none;
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 300;
   margin-top: 4px;
   padding: 0;
@@ -468,7 +463,7 @@ hr {
 }
 
 .terms p {
-  font-family: "Source Sans 3", sans-serif;
+  /* font-family: "Source Sans 3", sans-serif; */
   font-weight: 300;
   margin-top: 40px;
   margin-right: 50px;
