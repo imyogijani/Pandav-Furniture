@@ -4,7 +4,7 @@ body {
 }
 
 .screen {
-    max-width: 1440px;
+    max-width: 1200px;
     margin: auto;
     background: #d4d8d8;
     height: 100%;
@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 header {
-    background-color: #49a1b4;
+    background-color: #92d0de;
     color: #fff;
     text-align: center;
     padding: 1rem 0;
@@ -107,3 +107,83 @@ header {
 .product button:hover {
     background-color: #45a049;
 }
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4682b4;
+    padding: 50px;
+    margin-top: 25px;
+    color: white;
+  
+  }
+  
+  .shop-list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: "Source Sans 3", sans-serif;
+  
+  }
+  
+  .shop-list h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  
+  .shop-list ul {
+    list-style-type: none;
+    margin-top: 4px;
+    padding: 0;
+  }
+  
+  .shop-list ul li {
+    margin-top: 10px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  .help-list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: auto;
+  
+  }
+  
+  .help-list h1 {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  
+  .help-list ul {
+    list-style-type: none;
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+    margin-top: 4px;
+    padding: 0;
+  }
+  
+  .help-list li {
+    text-align: left;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  
+  .terms {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .terms p {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  
