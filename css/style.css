@@ -56,51 +56,28 @@ nav ul li a {
 nav ul li a:hover {
     color: #7c7c7c;
 }
+     .slider-container {
+  position: relative;
+  width: 100%;
+  height: 500px; /* adjust the height as needed */
+  overflow: hidden;
+}
+.slider-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s;
+}
+.slider-container img.active {
+  opacity: 1;
+}
+.slider-container img:not(.active) {
+  opacity: 0;
+}
 
-.slider {
-    position: relative;
-    width: 1400px;
-    height: 600px;
-    margin: 40px auto;
-    overflow: hidden;
-    margin-l
-  }
-  
-  .slider-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    white-space: nowrap;
-  }
-  
-  .slide {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .slider-controls {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-  
-  .prev, .next {
-    background-color: #fff;
-    border: 2px solid black;
-    padding: ;
-    font-size: 18px;
-    cursor: pointer;
-    height: 30px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: #ccc;
-  }
 .hero {
     display: flex;
     justify-content: space-around;
