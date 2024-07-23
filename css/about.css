@@ -11,6 +11,9 @@ body {
   height: 100%;
 }
 
+/*.navbar{
+  background-color: #acc4df;
+}*/
 
 .logo img {
   height: 90px;
@@ -37,9 +40,8 @@ nav ul {
 nav ul li {
   margin: 15px;
   font-size: larger;
-  margin-right: 6 0px;
+  margin-right: 60px;
 }
-
 nav ul li a {
   text-decoration: none;
   color: black;
@@ -62,7 +64,6 @@ nav ul li a:hover {
 .hero-content {
   max-width: 60%;
   margin-left: 60px; 
-
 }
 
 .hero-content h2 {
@@ -74,7 +75,7 @@ nav ul li a:hover {
 .hero-content p {
   font-size: 20px;
   color: #555;
-  width: 100%;
+  width: 70%;
   align-self: center;
 }
 
@@ -185,7 +186,7 @@ nav ul li a:hover {
   font-family: "Poppins", sans-serif;
   font-size: 35px;
   margin-bottom: 30px;
-  margin-left: 60px;
+  margin-left: 43%;
 }
 
 .team .member{
@@ -196,6 +197,9 @@ nav ul li a:hover {
   margin-bottom: 30px;
 }
 
+.team .member .card{
+  box-shadow: 0 0 5px rgb(82, 82, 82);
+}
 .feature {
   width: 100%;
   margin-right: 10px;
@@ -206,6 +210,9 @@ nav ul li a:hover {
   font-size: 20px;
 }
 
+.feature p{
+  max-width: 85%;
+}
 
 .footer {
   display: flex;
