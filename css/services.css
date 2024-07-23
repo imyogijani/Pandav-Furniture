@@ -103,6 +103,17 @@ nav ul li a:hover {
     border-radius: 10px;
 }
 
+.services {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services .row {
+    margin-left: 200px;
+}
+
 .footer {
     display: flex;
     justify-content: space-between;
