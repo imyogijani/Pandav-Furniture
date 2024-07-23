@@ -1,27 +1,12 @@
-const slider = document.querySelector('.slider');
-const sliderInner = document.querySelector('.slider-inner');
-const slides = document.querySelectorAll('.slide');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+const sliderContainer = document.querySelector('.slider-container');
+        const images = sliderContainer.querySelectorAll('img');
+        let currentImageIndex = 0;
 
-let currentSlide = 0;
+        function changeImage() {
+            images[currentImageIndex].classList.remove('active');
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            images[currentImageIndex].classList.add('active');
+        }
 
-prevButton.addEventListener('click', () => {
-  currentSlide--;
-  if (currentSlide < 0) {
-    currentSlide = slides.length - 1;
-  }
-  updateSlider();
-});
-
-nextButton.addEventListener('click', () => {
-  currentSlide++;
-  if (currentSlide >= slides.length) {
-    currentSlide = 0;
-  }
-  updateSlider();
-});
-
-function updateSlider() {
-  sliderInner.style.transform = `translateX(${currentSlide * -100}%)`;
-}
+        setInterval(changeImage, 4000); // change image every 2 seconds
+    
