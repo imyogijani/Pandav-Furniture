@@ -37,7 +37,8 @@
         </ul>
       </nav>
     </div>
-    <div class="jumbotron">
+    
+    <div class="jumbotron show" id="jumbotron-1">
       <div class="content">
         <h1>Have Questions? We're Here to Help!</h1>
         <br /><br /><br /><br />
@@ -54,17 +55,57 @@
       </div>
     </div>
 
+
+
+    <div class="jumbotron" id="jumbotron-2">
+      <div class="content">
+        <h1>Get in Touch with Us</h1>
+        <br /><br /><br /><br />
+        <p>
+          Contact us for inquiries, support, or feedback. 
+          Our team is dedicated to providing you with the best service
+          possible.
+        </p>
+        <div class="button">
+          <button type="button">Get in Touch</button>
+        </div>
+      </div>
+      <div class="heroImage">
+        <img src="/assets/Slide_2.png" alt="Slide_1" />
+      </div>
+    </div>
+    
+    
+    <div class="jumbotron" id="jumbotron-3">
+      <div class="content">
+        <h1>Connect with Our Team Today</h1>
+        <br /><br /><br /><br />
+        <p>
+          We’re just a message away! Whether it’s a quick question or a detailed inquiry, we’re eager to help you find what you need.
+        </p>
+        <div class="button">
+          <button type="button">Contact Our Team</button>
+        </div>
+      </div>
+      <div class="heroImage">
+        <img src="/assets/Slide_3.png" alt="Slide_1" />
+      </div>
+    </div>
+
     <div class="radio-container">
       <label class="radio-btn">
-        <input type="radio" checked="checked" name="radio" />
+        <input type="radio" id="radio1" checked name="jumbotron" value="1" />
+        <div class="circle"></div>
         <span class="checkmark"></span>
       </label>
       <label class="radio-btn">
-        <input type="radio" name="radio" />
+        <input type="radio" id="radio2" name="jumbotron" value="2" />
+        <div class="circle"></div>
         <span class="checkmark"></span>
       </label>
       <label class="radio-btn">
-        <input type="radio" name="radio" />
+        <input type="radio" id="radio3" name="jumbotron" value="3" />
+        <div class="circle"></div>
         <span class="checkmark"></span>
       </label>
     </div>
@@ -198,6 +239,25 @@
   </div>
 </body>
 
-<script src="/js/script.js"></script>
+<script>
+
+
+const radios = document.querySelectorAll('input[name="jumbotron"]');
+const jumbotrons = document.querySelectorAll('.jumbotron');
+
+radios.forEach((radio) => {
+  radio.addEventListener('click', () => {
+    jumbotrons.forEach((jumbotron) => {
+      jumbotron.classList.remove('show');
+    });
+
+    const value = radio.value;
+    const jumbotronId = `jumbotron-${value}`;
+    const jumbotron = document.getElementById(jumbotronId);
+    jumbotron.classList.add('show');
+  });
+});
+
+</script>
 
 </html>
