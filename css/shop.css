@@ -54,11 +54,11 @@ header {
   text-align: center;
   padding: 1rem 0;
 }
+
 .soid {
   display: flex;
   max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
+  
 }
 
 .sidebar {
