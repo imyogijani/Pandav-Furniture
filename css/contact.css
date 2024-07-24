@@ -16,6 +16,7 @@ body {
   max-width: 100%;
   margin: auto;
   background-color: #d4d8d8;
+  height: 100%;
 
 }
 
@@ -72,27 +73,16 @@ nav ul li a:hover {
 
 
 .screen main {
-  /* max-width: 1200px; */
+  max-width: 1200px;
   /* Adjust as needed */
-  /* margin: 0 auto; */
+  margin: 0 auto;
   /* Center the container */
-  /* padding: 0px; */
+  padding: 0px;
   /* Add some padding if needed */
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   /* Ensure padding and border are included in the total width */
 }
 
-.jumbotron {
-  margin-top: 50px;
-  display: flex;
-  width: 100%;
-  /* padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px; */
-  /* margin-left: auto; */
-  background-color: #acc4df;
-}
 
 .jumbotron {
   display: none;
@@ -102,13 +92,15 @@ nav ul li a:hover {
   display: block;
   margin-top: 50px;
   display: flex;
-  width: 100%;
+  padding: 10px;
+  /* width: 100%; */
   /* padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px; */
   /* margin-left: auto; */
   background-color: #acc4df;
+  min-height: 500px;
 }
 
 #jumbotron-2 .content h1 {
@@ -123,7 +115,7 @@ nav ul li a:hover {
   font-family: "Poppins", sans-serif;
   color: #272322;
   margin-right: 30px;
-  margin-left: 15%;
+  margin-top: 10px;
 }
 
 .content h1 {
@@ -163,14 +155,14 @@ nav ul li a:hover {
 .heroImage {
   display: flex;
   justify-content: end;
-  width: 100%;
+  /* width: 100%; */
   height: 100%;
-  margin-right: 15%;
+  margin-left: auto;
 }
 
 .heroImage img {
-  height: 400px;
-  width: 700px;
+  height: 300px;
+  width: 600px;
   border-radius: 20px;
 }
 
@@ -201,7 +193,7 @@ nav ul li a:hover {
 .radio-container label .circle {
   height: 20px;
   width: 20px;
-  border: 1px solid black;
+  border: 1px solid #565656;
   border-radius: 50%;
   display: inline-block;
   transition: .5s cubic-bezier(0.19, 1, 0.22, 1);
@@ -328,7 +320,7 @@ hr {
 
 .container {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   margin-top: 0;
   background-color: #d4d8d8;
 }
@@ -478,7 +470,7 @@ hr {
 }
 
 .sidebar .sidebar-content i {
-  font-size: 30px;
+  font-size: 20px;
   color: rgb(0, 0, 0);
 }
 
