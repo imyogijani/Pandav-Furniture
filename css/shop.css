@@ -118,6 +118,8 @@ nav ul li a:hover {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar-header h3 {
@@ -154,10 +156,14 @@ nav ul li a:hover {
   padding: 20px;
 }
 
+
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product {
@@ -200,6 +206,8 @@ nav ul li a:hover {
 .product button:hover {
   background-color: #45a049;
 }
+
+
 .footer {
   display: flex;
   justify-content: space-between;
