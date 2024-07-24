@@ -1,191 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .screen {
-    max-width: 100%;
-    margin: auto;
-    background: #d4d8d8;
-    height: 100%;
+  max-width: 100%;
+  margin: auto;
+  background: #d4d8d8;
+  height: 100%;
 }
 
 .logo img {
-    height: 90px;
-    margin-right: 200px;
-    width: 200px;
-    padding-left: 10px;
+  height: 90px;
+  margin-right: 200px;
+  width: 200px;
+  padding-left: 10px;
 }
 
 .logo h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    margin-left: 100px auto;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-left: 100px auto;
 }
 
 nav ul li {
-    margin: 15px;
-    font-size: larger;
-    margin-right: 60px;
+  margin: 15px;
+  font-size: larger;
+  margin-right: 60px;
 }
 
 nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: color 0.3s;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    color: #7c7c7c;
+  color: #7c7c7c;
 }
 
 header {
-    background-color: #92d0de;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+  background-color: #92d0de;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+.soid {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.sidebar {
+  flex: 0 0 250px; /* Fixed width for sidebar */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar-header h3 {
+  margin-bottom: 10px;
+}
+
+.sidebar-content p {
+  margin-bottom: 10px;
+}
+
+.sidebar-content hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #777;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .container {
-    max-width: 1440px;
-    margin: 0 auto;
-    padding: 20px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .products {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .product {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
 .product img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
 }
 
 .product h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 
 .product p {
-    font-size: 1.25rem;
-    color: #666;
-    margin-bottom: 15px;
+  font-size: 1.25rem;
+  color: #666;
+  margin-bottom: 15px;
 }
 
 .product button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .product button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 .footer {
-    display: flex;
-    justify-content: space-between;
-    background-color: #4682b4;
-    padding: 50px;
-    margin-top: 25px;
-    color: white;
-  
-  }
-  
-  .shop-list {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    font-family: "Source Sans 3", sans-serif;
-  
-  }
-  
-  .shop-list h1 {
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 0;
-  }
-  
-  .shop-list ul {
-    list-style-type: none;
-    margin-top: 4px;
-    padding: 0;
-  }
-  
-  .shop-list ul li {
-    margin-top: 10px;
-    font-weight: 300;
-    cursor: pointer;
-  }
-  
-  .help-list {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-left: auto;
-  
-  }
-  
-  .help-list h1 {
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    margin-bottom: 0;
-    text-align: left;
-  }
-  
-  .help-list ul {
-    list-style-type: none;
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 300;
-    margin-top: 4px;
-    padding: 0;
-  }
-  
-  .help-list li {
-    text-align: left;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  
-  .terms {
-    display: flex;
-    cursor: pointer;
-  }
-  
-  .terms p {
-    font-family: "Source Sans 3", sans-serif;
-    font-weight: 300;
-    margin-top: 40px;
-    margin-right: 50px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  background-color: #4682b4;
+  padding: 50px;
+  margin-top: 25px;
+  color: white;
+
+}
+
+.shop-list {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-family: "Source Sans 3", sans-serif;
+
+}
+
+.shop-list h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.shop-list ul {
+  list-style-type: none;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.shop-list ul li {
+  margin-top: 10px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.help-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: auto;
+
+}
+
+.help-list h1 {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.help-list ul {
+  list-style-type: none;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300;
+  margin-top: 4px;
+  padding: 0;
+}
+
+.help-list li {
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+.terms {
+  display: flex;
+  cursor: pointer;
+}
+
+.terms p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300;
+  margin-top: 40px;
+  margin-right: 50px;
+}
