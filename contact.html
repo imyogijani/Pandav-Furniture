@@ -23,6 +23,7 @@
 
 <body>
   <div class="screen">
+    <!-- navbar  -->
     <div class="navbar">
       <div class="logo">
         <img src="assets/logo.png" alt="Pandav Logo">
@@ -37,7 +38,7 @@
         </ul>
       </nav>
     </div>
-    
+    <!-- jumbotron -->
     <div class="jumbotron show" id="jumbotron-1">
       <div class="content">
         <h1>Have Questions? We're Here to Help!</h1>
@@ -56,13 +57,15 @@
     </div>
 
 
+    <!-- jumbotron when clicked on radio-2  -->
+
 
     <div class="jumbotron" id="jumbotron-2">
       <div class="content">
         <h1>Get in Touch with Us</h1>
         <br /><br /><br /><br />
         <p>
-          Contact us for inquiries, support, or feedback. 
+          Contact us for inquiries, support, or feedback.
           Our team is dedicated to providing you with the best service
           possible.
         </p>
@@ -74,14 +77,16 @@
         <img src="/assets/Slide_2.png" alt="Slide_1" />
       </div>
     </div>
-    
-    
+
+    <!-- jumbotron when clicked on radio-3  -->
+
     <div class="jumbotron" id="jumbotron-3">
       <div class="content">
         <h1>Connect with Our Team Today</h1>
         <br /><br /><br /><br />
         <p>
-          We’re just a message away! Whether it’s a quick question or a detailed inquiry, we’re eager to help you find what you need.
+          We’re just a message away! Whether it’s a quick question or a detailed inquiry, we’re eager to help you find
+          what you need.
         </p>
         <div class="button">
           <button type="button">Contact Our Team</button>
@@ -91,6 +96,8 @@
         <img src="/assets/Slide_3.png" alt="Slide_1" />
       </div>
     </div>
+
+    <!-- radio button for jumbotron  -->
 
     <div class="radio-container">
       <label class="radio-btn">
@@ -110,10 +117,15 @@
       </label>
     </div>
 
+    <!-- container for main data  -->
+
     <div class="container">
       <div class="sidebar"></div>
-
+      <!-- main content for form  -->
       <div class="main-content">
+
+        <!-- form starts  -->
+
         <form action="">
           <div class="form-group">
             <div class="form-heading">
@@ -163,6 +175,8 @@
         </form>
       </div>
 
+      <!-- sidebar for additional info -->
+
       <div class="sidebar sidebar-1">
         <div class="sidebar-content">
           <h1>
@@ -203,6 +217,8 @@
       </div>
     </div>
 
+    <!-- footer for page -->
+
     <div class="footer">
       <div class="shop-list">
         <h1>Shop</h1>
@@ -242,21 +258,21 @@
 <script>
 
 
-const radios = document.querySelectorAll('input[name="jumbotron"]');
-const jumbotrons = document.querySelectorAll('.jumbotron');
+  const radios = document.querySelectorAll('input[name="jumbotron"]');
+  const jumbotrons = document.querySelectorAll('.jumbotron');
 
-radios.forEach((radio) => {
-  radio.addEventListener('click', () => {
-    jumbotrons.forEach((jumbotron) => {
-      jumbotron.classList.remove('show');
+  radios.forEach((radio) => {
+    radio.addEventListener('click', () => {
+      jumbotrons.forEach((jumbotron) => {
+        jumbotron.classList.remove('show');
+      });
+
+      const value = radio.value;
+      const jumbotronId = `jumbotron-${value}`;
+      const jumbotron = document.getElementById(jumbotronId);
+      jumbotron.classList.add('show');
     });
-
-    const value = radio.value;
-    const jumbotronId = `jumbotron-${value}`;
-    const jumbotron = document.getElementById(jumbotronId);
-    jumbotron.classList.add('show');
   });
-});
 
 </script>
 
