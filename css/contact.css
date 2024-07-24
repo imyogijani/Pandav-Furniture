@@ -83,17 +83,6 @@ nav ul li a:hover {
   /* Ensure padding and border are included in the total width */
 }
 
-.jumbotron {
-  margin-top: 50px;
-  display: flex;
-  /* width: 100%; */
-  /* padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px; */
-  /* margin-left: auto; */
-  background-color: #acc4df;
-}
 
 .jumbotron {
   display: none;
@@ -103,6 +92,7 @@ nav ul li a:hover {
   display: block;
   margin-top: 50px;
   display: flex;
+  padding: 10px;
   /* width: 100%; */
   /* padding-top: 20px;
   padding-bottom: 20px;
@@ -110,6 +100,7 @@ nav ul li a:hover {
   padding-right: 10px; */
   /* margin-left: auto; */
   background-color: #acc4df;
+  min-height: 500px;
 }
 
 #jumbotron-2 .content h1 {
@@ -124,6 +115,7 @@ nav ul li a:hover {
   font-family: "Poppins", sans-serif;
   color: #272322;
   margin-right: 30px;
+  margin-top: 10px;
 }
 
 .content h1 {
@@ -165,12 +157,12 @@ nav ul li a:hover {
   justify-content: end;
   /* width: 100%; */
   height: 100%;
-  margin-right: 15%;
+  margin-left: auto;
 }
 
 .heroImage img {
-  height: 400px;
-  width: 700px;
+  height: 300px;
+  width: 600px;
   border-radius: 20px;
 }
 
