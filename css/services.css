@@ -113,84 +113,17 @@ nav ul li a:hover {
 .services .row {
     margin-left: 200px;
 }
-
-	.tns-inner {
-		padding-top: 30px;
-	}
-	.item {
-		.testimonial-block 
-			blockquote 
-				font-size : 16px; 
-					line-height: 32px;
-					font-size: 18px;
-    }
-
-			.author-info {
-				.author-pic {
-					margin-bottom: 20px;
-					img {
-						max-width: 80px;
-						border-radius: 50%;
-					}
-				}
-				h3 {
-					font-size: 14px;
-					font-weight: 700;
-					color: dark;
-					margin-bottom: 0;
-				}
-
-		}
-	#testimonial-nav {
-		position: absolute;
-		top: 50%;
-		z-index: 99;
-		width: 100%;
-		display: none;
-			
-	}
-	.tns-nav {
-		position: absolute;
-		bottom: -50px;
-		left: 50%;
-		transform: translateX(-50%);
-		button {
-			background: none;
-			border: none;
-			display: inline-block;
-			position: relative;
-			width: 0!important;
-			height: 7px!important;
-			margin: 2px;
-
-			&:active, &:focus, &:hover {
-				outline: none;
-				box-shadow: none;
-				background: none;
-			}
-
-			&:before {
-				display: block;
-				width: 7px;
-				height: 7px;
-				left: 0;
-				top: 0;
-				position: absolute;
-				content: "";
-				border-radius: 50%;
-				transition: .3s all ease;
-				background-color: darken(#efefef, 10%);
-			}
-			&:hover, &.tns-nav-active {
-				&:before {
-					background-color: primary;
-				}
-			}
-		}
-	}
-
-
-
+.author-pic img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+.carousel{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
 .footer {
     display: flex;
     justify-content: space-between;
