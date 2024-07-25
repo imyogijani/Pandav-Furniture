@@ -9,5 +9,4 @@ const sliderContainer = document.querySelector('.slider-container');
         }
 
         setInterval(changeImage, 4000); // change image every 4 seconds
-    
-     
+ 
