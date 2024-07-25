@@ -9,6 +9,14 @@ body {
   background: #d4d8d8;
   height: 100%;
 }
+.screen main{
+  max-width: 1200px; /* Adjust as needed */
+  margin: 0 auto; /* Center the container */
+  padding: 0px; /* Add some padding if needed */
+  box-sizing: border-box; /* Ensure padding and border are included in the total width */
+
+}
+
 
 .logo img {
   height: 90px;
@@ -48,24 +56,74 @@ nav ul li a:hover {
   color: #7c7c7c;
 }
 
-header {
-  background-color: #92d0de;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 0;
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 30px;
+  background: #acc4df;
+}
+
+
+.screen .hero-content {
+  max-width: 500px;
+  /* margin-left: 200px; */
+
+}
+
+.screen.hero-content h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 24px;
+  color: #555;
+}
+
+.hero-content button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #6495ED;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-content button:hover {
+  background-color: #0056b3;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
 }
 
 .soid {
+  background: #acc4df;
+  height: 100%;
+  width: 20%;
+  margin: 0 20px 0 0;
+  padding: 20px;
+}
+
+.main-shop{
   display: flex;
-  max-width: 1200px;
-  
+  justify-content: center;
 }
 
 .sidebar {
   flex: 0 0 250px; /* Fixed width for sidebar */
-  background-color: #333;
+  background:#6495ED;
   color: #fff;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar-header h3 {
@@ -92,7 +150,7 @@ header {
 }
 
 .sidebar-nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -102,13 +160,18 @@ header {
   padding: 20px;
 }
 
+
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product {
+  width: 300px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -119,9 +182,7 @@ header {
 .product img {
   width: 100%;
   max-width: 300px;
-  height: auto;
   border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 .product h2 {
@@ -148,6 +209,8 @@ header {
 .product button:hover {
   background-color: #45a049;
 }
+
+
 .footer {
   display: flex;
   justify-content: space-between;
