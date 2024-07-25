@@ -105,9 +105,13 @@ nav ul li a:hover {
 }
 
 .soid {
-  display: flex;
-  max-width: 1200px;
+  background: #acc4df;
+  height: 100%;
+  width: 20%;
+  margin: 0 20px 0 0;
+  padding: 20px;
 }
+
 .main-shop{
   display: flex;
   justify-content: center;
@@ -115,9 +119,11 @@ nav ul li a:hover {
 
 .sidebar {
   flex: 0 0 250px; /* Fixed width for sidebar */
-  background-color: #333;
+  background:#6495ED;
   color: #fff;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .sidebar-header h3 {
@@ -144,7 +150,7 @@ nav ul li a:hover {
 }
 
 .sidebar-nav a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -154,13 +160,18 @@ nav ul li a:hover {
   padding: 20px;
 }
 
+
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .product {
+  width: 300px;
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -171,9 +182,7 @@ nav ul li a:hover {
 .product img {
   width: 100%;
   max-width: 300px;
-  height: auto;
   border-radius: 8px;
-  margin-bottom: 10px;
 }
 
 .product h2 {
@@ -200,6 +209,8 @@ nav ul li a:hover {
 .product button:hover {
   background-color: #45a049;
 }
+
+
 .footer {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: grey;
+}
+
+.testimonial-card {
+  border: none;
+  padding: 20px;
+  background-color: #7ea7d1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.testimonial-author {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #555;
+}

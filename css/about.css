@@ -180,7 +180,7 @@ nav ul li a:hover {
 .col-lg-5 {
   flex: 0 0 auto;
   width: 41.66666667%;
-  margin-left: 60px ;
+  margin-left: 40px ;
 }
 .team {
   display: flex;
@@ -205,7 +205,7 @@ nav ul li a:hover {
 
 .team .member .card{
   width: 18rem;
-  margin: 20px;
+  margin: 10px;
   text-align: justify;
 }
 
@@ -233,8 +233,8 @@ nav ul li a:hover {
 }
 
 .carousel{
-  width: 80%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
 }
 
 
